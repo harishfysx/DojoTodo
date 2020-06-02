@@ -1,7 +1,9 @@
 <div id="myDIV" class="header">
   <h2 style="margin:5px">My To Do List</h2>
-  <input type="text" id="myInput" placeholder="Title...">
-  <span onclick="newElement()" class="addBtn">Add</span>
+  <form data-dojo-type= "dijit/form/Form" action="index.html" method="post">
+    <input  data-dojo-type= "dijit/form/TextBox" id="myInput" placeholder="Title...">
+    <button data-dojo-type= "dijit/form/Button" name="button">Add</button>
+  </form>
 </div>
 
 <ul id="myUL">

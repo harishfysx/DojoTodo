@@ -1,7 +1,6 @@
 require(["dijit/layout/BorderContainer", "dijit/layout/TabContainer", "dijit/layout/ContentPane", "dojo/text!./widgets/templates/todo.html", "dojo/domReady!"],
 function(BorderContainer, TabContainer,ContentPane,template){
 // create the BorderContainer and attach it to our appLayout div
-console.log(template)
 var appLayout = new BorderContainer({
 design: "headline"
 }, "appLayout");

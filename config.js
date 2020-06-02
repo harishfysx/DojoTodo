@@ -1,3 +1,4 @@
 var dojoConfig = {
-  async: true
+  async: true,
+  parseOnLoad: false
 };
