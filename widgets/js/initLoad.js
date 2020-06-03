@@ -1,4 +1,4 @@
-define(["dijit/layout/BorderContainer", "dijit/layout/TabContainer", "dijit/layout/ContentPane", "dojo/text!./templates/todo.html", "dojo/domReady!"],
+define(["dijit/layout/BorderContainer", "dijit/layout/TabContainer", "dijit/layout/ContentPane", "dojo/text!./../templates/todo.html", "dojo/domReady!"],
 function(BorderContainer, TabContainer,ContentPane,template){
 // create the BorderContainer and attach it to our appLayout div
  var loadPage = function(){
