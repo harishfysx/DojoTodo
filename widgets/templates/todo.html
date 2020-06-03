@@ -1,8 +1,9 @@
 <div id="myDIV" class="header">
   <h2 style="margin:5px">My To Do List</h2>
-  <form data-dojo-type= "dijit/form/Form" action="index.html" method="post">
-    <input  data-dojo-type= "dijit/form/TextBox" id="myInput" placeholder="Title...">
-    <button data-dojo-type= "dijit/form/Button" name="button">Add</button>
+  <form data-dojo-type= "dijit/form/Form" action="index.html" method="post" id="myForm">
+    <label for="myInput">To Do</label>
+    <input  data-dojo-type= "dijit/form/TextBox" maxLength= 20  data-dojo-props="trim:true, uppercase:true" id="myInput" placeholder="Title...">
+    <button data-dojo-type= "dijit/form/Button" name="button" id="myAdd">Add</button>
   </form>
 </div>
 

@@ -1,4 +1,7 @@
 var dojoConfig = {
   async: true,
-  parseOnLoad: false
+  parseOnLoad: false,
+  packages: [
+      { name: "custom", location: "/widgets/" }
+  ]
 };
